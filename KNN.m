@@ -58,10 +58,4 @@ for i = 1:length(K_values)
     title(['Confusion Matrix (K = ' num2str(K_values(i)) ')']);
 end
 
-% Display the limitations or drawbacks of KNN
-fprintf('\nLimitations/Drawbacks of K-NN:\n');
-fprintf('1. Computationally expensive for large datasets.\n');
-fprintf('2. Sensitive to irrelevant features and noise in the data.\n');
-fprintf('3. Choice of K value and distance metric can significantly impact results.\n');
-fprintf('4. Not suitable for high-dimensional data (the curse of dimensionality).\n');
-fprintf('5. May struggle with imbalanced datasets.\n');
+
